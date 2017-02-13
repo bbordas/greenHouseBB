@@ -1,0 +1,1 @@
+A brochure style website has been created using HTML5, CSS3, JavaScript and JQuery (without using frameworks or templates) for a B&B in Galway.
