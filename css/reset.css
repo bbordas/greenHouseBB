@@ -1,0 +1,453 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MY CODE STARTS HERE--------------------------------------------------------------------*/
+
+header{
+	position: relative;
+	height:130px;
+	background-color:#c1ff80;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 3px 3px 3px #a6a6a6;	
+}	
+header h1{	
+	color: #1a3300;
+	font-family:"century gothic",arial, sans-serif;
+	font-size: 180%;
+	position: absolute;
+	left:24%;
+	top:40%;
+}
+#socialmedia{
+	float:right;
+	margin-top:2%;
+	margin-right: 1%;
+	opacity: 0.7;
+}
+.socmed{
+	display: inline;
+	padding: 20px;
+}
+.logo{
+	float: left;
+	height:90%;
+	padding-top:0.6%;
+	margin-left: 5%;
+}
+
+
+#menu{
+	background-color:#f2f2f2;
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 3px 3px 3px #a6a6a6;
+	padding:1% 6% 1.2%;
+}
+#menu img{
+	width:2.4%;
+	margin-top:0.4%;
+}
+nav li{
+	padding: 2%;
+	display: inline;
+}	
+a{
+	text-decoration: none;
+	color: #428000;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+
+body{
+	background-color: #f2f2f2;
+	font-size: 100%;
+}
+#container{
+	position:relative;
+	width:72%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"century gothic",arial, sans-serif;
+	color: grey;
+	
+}
+#main{
+	position:relative;
+	width:100%;
+	background-color:white;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 3px 3px 3px #a6a6a6;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	overflow:hidden;
+}	
+section{
+	text-align: justify;
+	box-sizing: border-box;
+	font-family: calibri, arial, sans-serif;
+	line-height:120%;
+	padding:30px 40px 20px;
+	box-sizing: border-box;	
+	width: 70%;
+	float:right;
+}
+section h1{
+	
+	font-family:"century gothic",arial, sans-serif;
+	color: #bfbfbf;
+	font-size: 180%;
+	letter-spacing:2px;
+	margin-bottom:6%;
+	padding-left:5%;
+	padding-right:2%;
+}
+h3{
+	font-family:"century gothic",arial, sans-serif;
+	font-size: 120%;
+	margin-bottom:3%;
+	padding-left:5%;
+	padding-right:2%;
+	}
+section p{
+	padding-top: 3%;
+	letter-spacing: 0.5px;
+	padding-left:5%;
+	padding-right:5%;
+}
+#backtotop{
+	font-family:"century gothic",arial, sans-serif;
+	position:absolute;
+	top:94%;
+	left:85%;
+}
+.findus{
+	letter-spacing:1.5px;
+}
+#list{
+    list-style-type: circle;
+	line-height:150%;
+	padding-bottom:1%;
+	margin-top:-20px;
+}
+
+
+.faqh3{
+	background-color:white;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 1px #a6a6a6;
+	padding:2% 0% 2% 4%;
+
+}
+#faq{
+	padding:0px;
+}
+.faqbtn{
+	float:right;
+	padding-right: 3%;
+	padding-top:2%;
+	width:3%;
+	transform:rotate(90deg);
+	opacity: 0.7;
+}
+#sitemap{
+	padding-left:5%;
+	font-size:120%;
+
+}
+#sitemap li{
+	padding-bottom:2%;
+	list-style-type: circle;
+}
+.begin{
+	font-family:"century gothic",arial, sans-serif;
+	font-size:120%;
+}
+#rooms{
+	vertical-align:middle;
+	padding-left: 10%;
+	padding-bottom:5%;
+	padding-top:2%;
+	max-width: 100%;
+	height:auto;
+}
+.slide{
+	max-width: 100%; 
+    vertical-align: middle; 
+	padding:2%;
+    margin-left:2%;	
+}
+#slideshow {
+	position: relative;
+	max-width: 100%;
+	height:auto;
+	margin-top:2%;
+	padding-left:4%;
+	margin-bottom:60%;
+
+}
+#slideshow img {
+	max-width: 100%;
+	height:auto;
+	position:absolute;
+
+}
+#touristinfo{
+	margin-left:10%;
+	padding-top:2%;
+
+	
+
+}
+#touristinfo img{
+	max-width: 100%;
+	height:auto;
+}
+.sight{
+	text-align:center;
+	padding-bottom:0;
+}
+#map{
+	position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+	overflow: hidden;
+}
+#map iframe {
+        position: absolute;
+        top: 0;
+        left: 5%;
+        width: 90% !important;
+        height: 90% !important;
+ }
+#mapadd{
+	padding-left:100px;
+	padding-top:0;
+	margin-top:0;
+}
+#taxform{
+	margin-top:5%;
+	font-size:90%;
+}
+#taxform2{
+	margin-top:2%;
+
+}
+
+
+#booking-form{
+	padding:3% 0% 2% 3%;
+	margin-left:5%;
+	margin-right: 3%;
+	width:50%;
+	background-color:#f2f2f2;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 3px 3px 3px #a6a6a6;
+	float:left;
+}
+#list{	
+padding-left:45px;
+padding-top:20px;
+}
+#form li{
+	padding-bottom: 20px;
+}
+#person li{
+	display:inline;
+	padding-right:6%;
+}
+#AdultsNo{
+	width:20%;
+}
+#ChildrenNo{
+	width: 20%;
+}
+#arrival{
+	width: 90%;
+}
+#departure{
+	width: 90%;
+}
+.textin{
+	width: 90%;
+}
+#roomtype{
+	width: 90%;
+}
+table, tr, td{ 
+	border: 1px gray;
+	width:30%;
+	}
+#calc li{
+	display:inline;
+	padding-right:5%;
+}
+
+	
+aside{
+	box-sizing: border-box; 
+	border-radius: 10px 10px 10px 10px;
+	width: 30%;
+	height:auto;
+	float: left;
+	padding-bottom:10%;
+	
+}
+#contact {
+	text-align:right;
+	color: #5cb300;
+	font-size:160%;
+	letter-spacing:0.15em;
+	padding-top:3%;
+	padding-right:2%;
+	
+	
+
+}
+#name{
+	text-align:right;
+	padding-bottom:3%;
+	color: #5cb300;
+	font-size:120%;
+	letter-spacing:0.24em;
+	padding-right:2%;
+}
+#address{
+	padding-right:10%;
+	padding-top:2%;
+	text-align:justify;
+	float:right;
+	font-family:"century gothic",arial, sans-serif;
+	color: #428000;
+	font-size:90%;
+	line-height:1.2;
+	letter-spacing:0.02em;
+}
+#address2{
+	text-align:justify;
+	padding-right:10%;
+	padding-top:2%;
+	float:right;
+	font-family:"century gothic",arial, sans-serif;
+	color: #428000;
+	font-size:70%;
+	line-height:1.5;
+}
+.trippic{
+	position:relative;
+	padding-top:2%;
+	padding-bottom:6%;
+	width: 25%;
+	margin-left:18%;
+	float:left;
+}
+.tripadv{
+	padding-top:1%;
+	padding-right:3%;
+	font-family:"century gothic",arial, sans-serif;
+	color: grey;
+	font-size:80%;
+	text-align:center;
+	float:right;
+	letter-spacing:0.02em;
+}
+#info{
+	position:relative;
+	max-width:100%;
+
+	padding-top:6%;
+	border-radius: 10px 10px 10px 10px;
+	overflow:hidden;
+}
+
+
+footer{
+	box-sizing: border-box;
+	background-color:#f2f2f2;
+	color:#428000;
+	font-size: 80%;
+	line-height:2.5;
+	padding:50px 50px 20px;
+	clear: both;
+}
+#pictogram{
+float:right;
+}
+.wifi{
+	position:relative;
+	top:-30px;
+	left: 20px;
+	width:50px;
+}
+.credit{
+	position:relative;
+	top:-30px;
+	width:350px;
+}
+#leftfoot{
+	float: left;
+	padding-right: 100px;
+	letter-spacing:2px;	
+}
+#middlefoot{
+	padding-right: 100px;
+	letter-spacing:2px;
+}
+#copy{
+	text-align:center;
+	letter-spacing:2px;	
+	padding-top:30px;
+}
+
+
+
+
